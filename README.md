@@ -10,4 +10,6 @@ A data structure that contains a finite sequence of elements. Tuples are immutab
 ##### Why use tuples?
 In my opinion, the no 1 reason to use tuple is improve code readibility by communicate to the reader (the author or anyone else) that the information contained in the tuple is immutable by design. It's not meant to be changed, ever.
 
+More on tuples: https://encyclopediaofmath.org/wiki/Tuple
+
 -------
