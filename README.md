@@ -14,6 +14,14 @@ More on tuples: https://encyclopediaofmath.org/wiki/Tuple
 
 -------
 
-### Chaos Engineering / Chaos Monkey
+### Thread
+
+A unit of execution that is a part of a process. By default a process has 1 thread, but programmers can author programs with the capability to spawn multiple threads from the main thread. 
+
+Threads have their own stack and data, but they can communicate with other threads via message passing e.g. IPC
+
+There are 2 types of threads, user-level threads and kernel-level threads. User level threads are part of a process and thus not known to the kernel.
+
+A major advantage of using multiple threads is that each thread of the same process can run on different CPU core thus enabling the threads to run in parallel.
 
 -------
